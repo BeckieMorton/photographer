@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+}
+
+.genreText {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eec759;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  color: white;
+  font-size: 44px;
+}
+
+.container:hover .genreText {
+  opacity: 1;
+}
+
+.genreImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.container:hover img {
+  opacity: 0.2;
+  /*filter: brightness(20%);*/
+}

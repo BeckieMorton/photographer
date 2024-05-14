@@ -14,44 +14,42 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <nav className={`${styles.navbar}`}>
-          <a href="#home" className={`${styles.logo}`}>
-            Y.A.
-          </a>
-          <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
-            <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
-                Home
-              </a>
-            </li>
-            <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
-                Catalog
-              </a>
-            </li>
-            <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
-                All products
-              </a>
-            </li>
-            <li onClick={removeActive}>
-              <a href="#home" className={`${styles.navLink}`}>
-                Contact
-              </a>
-            </li>
-          </ul>
-          <div
-            className={`${styles.hamburger} ${isActive ? styles.active : ""}`}
-            onClick={toggleActiveClass}
-          >
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
-            <span className={`${styles.bar}`}></span>
-          </div>
-        </nav>
-      </header>
+    <div className={styles.container}>
+      <nav className={`${styles.navbar}`}>
+        <a href="#home" className={`${styles.logo}`}>
+          Y.A.
+        </a>
+        <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
+          <li onClick={removeActive}>
+            <a href="#home" className={`${styles.navLink}`}>
+              Home
+            </a>
+          </li>
+          <li onClick={removeActive}>
+            <a href="#home" className={`${styles.navLink}`}>
+              Photos
+            </a>
+          </li>
+          <li onClick={removeActive}>
+            <a href="#home" className={`${styles.navLink}`}>
+              About
+            </a>
+          </li>
+          <li onClick={removeActive}>
+            <a href="#home" className={`${styles.navLink}`}>
+              Contact
+            </a>
+          </li>
+        </ul>
+        <div
+          className={`${styles.hamburger} ${isActive ? styles.active : ""}`}
+          onClick={toggleActiveClass}
+        >
+          <span className={`${styles.bar}`}></span>
+          <span className={`${styles.bar}`}></span>
+          <span className={`${styles.bar}`}></span>
+        </div>
+      </nav>
     </div>
   );
 };

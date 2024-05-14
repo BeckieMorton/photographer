@@ -1,0 +1,13 @@
+.container {
+  min-height: 500px;
+  margin-top: 20px;
+}
+
+.container img {
+  object-fit: contain;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+}

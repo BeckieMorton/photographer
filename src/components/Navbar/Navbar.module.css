@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  border-bottom: 1px solid black;
+}
+
 ul {
   list-style: none;
 }
@@ -20,11 +24,11 @@ a:hover {
 
 /* navbar */
 .navbar {
-  padding: 10px 20px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
   min-height: 70px;
 }
 
@@ -37,7 +41,7 @@ a:hover {
 /* ul  */
 .navMenu {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 40px;
   display: flex;
   justify-content: flex-end;
@@ -84,7 +88,6 @@ a:hover {
     text-align: start;
     width: 100%;
     transition: 0.7s ease-in-out;
-    background-color: aliceblue;
     padding: 10px;
   }
 

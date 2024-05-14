@@ -1,0 +1,9 @@
+.container {
+  background-color: blanchedalmond;
+  min-height: 500px;
+  margin-top: 20px;
+}
+
+.container h2 {
+  padding: 20px;
+}
