@@ -14,9 +14,12 @@ a {
   font-size: 18px;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /* navbar */
 .navbar {
-  background-color: aliceblue;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -33,16 +36,19 @@ a {
 
 /* ul  */
 .navMenu {
+  position: absolute;
+  top: 50px;
+  right: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   gap: 60px;
+  padding: 10px;
 }
 
-/* media queries */
+/* media queries for mobile */
 
 @media screen and (max-width: 780px) {
-  /* hamburger */
   .hamburger {
     display: block;
     cursor: pointer;
@@ -68,8 +74,6 @@ a {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-  /* navMenu */
 
   .navMenu {
     position: absolute;

@@ -17,9 +17,8 @@ export const Navbar = () => {
     <div className="App">
       <header className="App-header">
         <nav className={`${styles.navbar}`}>
-          {/* logo */}
           <a href="#home" className={`${styles.logo}`}>
-            Dev.{" "}
+            Y.A.
           </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <li onClick={removeActive}>
