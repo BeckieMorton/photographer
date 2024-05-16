@@ -1,4 +1,4 @@
-import { Photocard } from "./PhotoCard";
+import { Photocard } from "../Photocard/Photocard";
 import styles from "./Photogrid.module.css";
 
 export const Photogrid = () => {
