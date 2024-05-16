@@ -1,4 +1,4 @@
-.container {
+.artCardContainer {
   position: relative;
   display: inline-block;
   text-align: center;
@@ -18,23 +18,17 @@
   font-size: 44px;
 }
 
-.container:hover .genreText {
+.artCardContainer:hover .genreText {
   opacity: 1;
 }
 
-.genreImage {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.container img {
-  height: 100%;
+.artCardContainer img {
+  height: 90%;
   width: 100%;
   transition: 0.3s ease;
 }
 
-.container:hover img {
+.artCardContainer:hover img {
   opacity: 0.2;
   /*filter: brightness(20%);*/
 }

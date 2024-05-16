@@ -1,19 +1,17 @@
-import { AboutMe } from "./components/AboutMe/AboutMe";
-import { Footer } from "./components/Footer.jsx/Footer";
-import { Header } from "./components/Header.jsx/Header";
-import { Hero } from "./components/Hero.jsx/Hero";
-import { MyPhotos } from "./components/ReusableComponents/MyPhotos/MyPhotos";
+import { BrowserRouter, Routes } from "react-router-dom";
 
-export const App = () => {
+import routes from "./routes/routes";
+
+function App() {
   return (
     <>
-      <div>
-        <Header />
-        <Hero />
-        <MyPhotos />
-        <AboutMe />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <main>
+          <Routes>{routes}</Routes>
+        </main>
+      </BrowserRouter>
     </>
   );
-};
+}
+
+export default App;

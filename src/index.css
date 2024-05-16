@@ -12,7 +12,7 @@
 
 a {
   font-weight: 500;
-  color: black;
+  color: #12161f;
   text-decoration: inherit;
 }
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
 
 body {
   margin: 0;
-
+  color: #12161f;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -29,6 +29,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  padding-top: 40px;
+  color: #12161f;
 }
 
 button {

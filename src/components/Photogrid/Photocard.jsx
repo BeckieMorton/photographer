@@ -1,8 +1,8 @@
-import styles from "./PhotoCard.module.css";
+import styles from "./Photocard.module.css";
 
-export const PhotoCard = ({ cardText, handleClick, cardImage }) => {
+export const Photocard = ({ cardText, handleClick, cardImage }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.artCardContainer}>
       <p className={styles.genreText}>{cardText}</p>
       <img className={styles.genreImage} src={`./assets/${cardImage}.jpg`} />
     </div>

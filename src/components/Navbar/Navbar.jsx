@@ -1,6 +1,5 @@
-import React from "react";
-
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Navbar.module.css";
 
@@ -16,29 +15,35 @@ export const Navbar = () => {
   return (
     <div className={styles.container}>
       <nav className={`${styles.navbar}`}>
-        <a href="#home" className={`${styles.logo}`}>
+        <Link to="/" className={`${styles.logo}`}>
           YA.
-        </a>
+        </Link>
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
           <li onClick={removeActive}>
-            <a href="#home" className={`${styles.navLink}`}>
+            <Link to="/" className={`${styles.navLink}`}>
               Home
-            </a>
+            </Link>
           </li>
           <li onClick={removeActive}>
-            <a href="#home" className={`${styles.navLink}`}>
+            <Link to="/Featured" className={`${styles.navLink}`}>
+              Featured
+            </Link>
+          </li>
+          <li onClick={removeActive}>
+            <Link to="/Photos" className={`${styles.navLink}`}>
               Photos
-            </a>
+            </Link>
           </li>
+
           <li onClick={removeActive}>
-            <a href="#home" className={`${styles.navLink}`}>
+            <Link to="/About" className={`${styles.navLink}`}>
               About
-            </a>
+            </Link>
           </li>
           <li onClick={removeActive}>
-            <a href="#home" className={`${styles.navLink}`}>
+            <Link to="/Contact" className={`${styles.navLink}`}>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div

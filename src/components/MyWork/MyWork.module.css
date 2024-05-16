@@ -1,0 +1,10 @@
+.container p {
+  font-size: 50px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  font-weight: 500;
+}
+
+.container {
+  background-color: white;
+}

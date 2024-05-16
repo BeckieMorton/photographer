@@ -1,0 +1,9 @@
+.container {
+  color: #12161f;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container img {
+  max-height: 500px;
+}

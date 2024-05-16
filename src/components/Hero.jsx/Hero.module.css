@@ -7,7 +7,6 @@
 .container img {
   object-fit: contain;
   display: block;
-  height: 100%;
   width: 100%;
 }
 
@@ -16,18 +15,25 @@
   width: 100%;
   text-align: left;
   color: white;
-  font-size: 54px;
-  font-weight: 600;
+  font-size: 50px;
+  font-weight: 500;
   font-family: "Raleway", sans-serif;
   padding-left: 80px;
 }
 
 .container p:nth-child(2) {
-  top: 20%;
+  top: 17%;
   transform: translateY(-50%);
 }
 
 .container p:nth-child(3) {
-  top: 30%;
+  top: 28%;
   transform: translateY(-50%);
+}
+
+/* media query for mobile and tablet */
+@media screen and (max-width: 780px) {
+  .container p {
+    font-size: 20px;
+  }
 }

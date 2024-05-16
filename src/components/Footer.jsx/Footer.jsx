@@ -1,11 +1,9 @@
-import React from "react";
-import { Navbar } from "../Navbar/NavBar";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
   return (
-    <div>
-      <p> Footer</p>
-      <Navbar />
+    <div className={styles.footerContainer}>
+      <p> Footer goes here - copyright etc</p>
     </div>
   );
 };
