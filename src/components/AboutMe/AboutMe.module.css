@@ -1,10 +1,13 @@
 .container {
   color: #12161f;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30% 70%;
   padding-top: 50px;
 }
 
 .container img {
   max-height: 500px;
+}
+.container p {
+  padding: 5px 60px 0 0;
 }
