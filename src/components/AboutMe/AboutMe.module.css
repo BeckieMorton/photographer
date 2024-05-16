@@ -2,6 +2,7 @@
   color: #12161f;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-top: 50px;
 }
 
 .container img {
