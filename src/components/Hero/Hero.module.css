@@ -36,4 +36,12 @@
   .container p {
     font-size: 20px;
   }
+
+  .container img {
+    display: none;
+  }
+
+  .container p {
+    display: none;
+  }
 }
