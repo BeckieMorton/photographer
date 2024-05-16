@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   border-bottom: 1px solid black;
-}
+} */
 
 ul {
   list-style: none;
@@ -24,30 +24,25 @@ a:hover {
 
 /* navbar */
 .navbar {
-  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  min-height: 70px;
 }
 
 /* logo  */
 .logo {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
 }
 
 /* ul  */
 .navMenu {
   position: absolute;
-  top: 40px;
   right: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 60px;
-  padding: 10px;
+  gap: 20px;
+  padding: 5px;
 }
 
 /* media queries for mobile */

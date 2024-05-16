@@ -17,7 +17,7 @@ export const Navbar = () => {
     <div className={styles.container}>
       <nav className={`${styles.navbar}`}>
         <a href="#home" className={`${styles.logo}`}>
-          Y.A.
+          YA.
         </a>
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
           <li onClick={removeActive}>
