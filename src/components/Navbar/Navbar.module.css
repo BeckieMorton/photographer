@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-/* .container {
-  border-bottom: 1px solid black;
-} */
+.container {
+  border-bottom: 0.5px solid black;
+}
 
 ul {
   list-style: none;
@@ -15,12 +15,12 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 /* navbar */
 .navbar {
@@ -41,7 +41,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   padding: 5px;
 }
 

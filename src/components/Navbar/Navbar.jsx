@@ -16,25 +16,20 @@ export const Navbar = () => {
     <div className={styles.container}>
       <nav className={`${styles.navbar}`}>
         <Link to="/" className={`${styles.logo}`}>
-          YA.
+          Namess Here&nbsp;
         </Link>
+
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
           <li onClick={removeActive}>
-            <Link to="/" className={`${styles.navLink}`}>
-              Home
-            </Link>
-          </li>
-          <li onClick={removeActive}>
-            <Link to="/Featured" className={`${styles.navLink}`}>
-              Featured
+            <Link to="/Photos" className={`${styles.navLink}`}>
+              Latest Work
             </Link>
           </li>
           <li onClick={removeActive}>
             <Link to="/Photos" className={`${styles.navLink}`}>
-              Photos
+              Portfolio
             </Link>
           </li>
-
           <li onClick={removeActive}>
             <Link to="/About" className={`${styles.navLink}`}>
               About

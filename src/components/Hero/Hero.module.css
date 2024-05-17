@@ -1,7 +1,5 @@
 .container {
-  min-height: 500px;
-  margin-top: 20px;
-  position: relative;
+  margin-top: 10px;
 }
 
 .container img {
