@@ -20,14 +20,15 @@ export const Navbar = () => {
         </Link>
 
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
-          <li onClick={removeActive}>
-            <Link to="/Photos" className={`${styles.navLink}`}>
-              Latest Work
-            </Link>
-          </li>
+          {" "}
           <li onClick={removeActive}>
             <Link to="/Photos" className={`${styles.navLink}`}>
               Portfolio
+            </Link>
+          </li>
+          <li onClick={removeActive}>
+            <Link to="/Locations" className={`${styles.navLink}`}>
+              Locations
             </Link>
           </li>
           <li onClick={removeActive}>
@@ -39,6 +40,9 @@ export const Navbar = () => {
             <Link to="/Contact" className={`${styles.navLink}`}>
               Contact
             </Link>
+          </li>
+          <li onClick={removeActive}>
+            <img src="./assets/instagram.png" />
           </li>
         </ul>
         <div

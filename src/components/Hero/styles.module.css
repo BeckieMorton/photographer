@@ -1,0 +1,15 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  will-change: opacity;
+}
+
+.container img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  will-change: opacity;
+}

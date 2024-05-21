@@ -1,12 +1,37 @@
-.container {
+/* .container {
+  min-height: 500px;
   margin-top: 10px;
+  position: relative;
 }
 
-.container img {
-  object-fit: contain;
-  display: block;
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100vh;
+  will-change: opacity;
+} */
+
+.container {
+  position: relative;
+  width: 100vw;
+  min-height: 650px;
+  overflow: hidden;
 }
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+}
+
+/* Other styles remain unchanged */
 
 .container p {
   position: absolute;

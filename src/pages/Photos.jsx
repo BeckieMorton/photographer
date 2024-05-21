@@ -1,12 +1,12 @@
 import { Header } from "../components/Header/Header";
-import { Photogrid } from "../components/Photogrid/Photogrid";
+import { MainPhotos } from "../components/MainPhotos/MainPhotos";
 
 export const Photos = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h1>My Captures</h1>
-      <Photogrid />
-    </div>
+      <h1>Photos</h1>
+      <MainPhotos />
+    </>
   );
 };
