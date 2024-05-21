@@ -1,4 +1,4 @@
-/* .container {
+.container {
   min-height: 500px;
   margin-top: 10px;
   position: relative;
@@ -11,8 +11,9 @@
   width: 100%;
   height: 100vh;
   will-change: opacity;
-} */
+}
 
+/* keep this for css for the fade in and out option
 .container {
   position: relative;
   width: 100vw;
@@ -29,9 +30,13 @@
   background-size: cover;
   background-position: center;
   will-change: opacity;
-}
+} */
 
-/* Other styles remain unchanged */
+.container img {
+  object-fit: contain;
+  width: 100%;
+  will-change: opacity;
+}
 
 .container p {
   position: absolute;

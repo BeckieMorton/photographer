@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 /* .container {
   border-bottom: 0.5px solid black;
 } */
@@ -27,11 +21,14 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4px;
+  margin-top: 4px;
 }
 
 /* logo  */
 .logo {
   font-size: 26px;
+  padding-left: 30px;
 }
 
 /* ul  */
