@@ -1,0 +1,39 @@
+/* Container style */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px; /* Gap between the images */
+  margin: 10em;
+}
+
+/* Box style */
+.box {
+  padding: 0; /* Remove any default padding */
+  box-sizing: border-box; /* Ensure padding is included in the box dimensions */
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensuring square images */
+.box {
+  position: relative;
+}
+
+.box::before {
+  content: "";
+  display: block;
+  padding-top: 100%; /* This maintains the aspect ratio for squares */
+}
+
+.box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the box area without distortion */
+}
