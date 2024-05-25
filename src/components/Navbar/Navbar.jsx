@@ -16,11 +16,10 @@ export const Navbar = () => {
     <div className={styles.container}>
       <nav className={`${styles.navbar}`}>
         <Link to="/" className={`${styles.logo}`}>
-          Namess Here&nbsp;
+          Audrey Apitl&nbsp;
         </Link>
 
         <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
-          {" "}
           <li onClick={removeActive}>
             <Link to="/Photos" className={`${styles.navLink}`}>
               Portfolio

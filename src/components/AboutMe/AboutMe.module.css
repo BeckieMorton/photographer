@@ -2,12 +2,12 @@
   color: #12161f;
   display: grid;
   grid-template-columns: 30% 70%;
-  padding-top: 50px;
+  padding: 0 15em;
 }
 
 .container img {
-  max-height: 500px;
+  max-height: 400px;
 }
 .container p {
-  padding: 5px 60px 0 0;
+  padding: 2px 10px 0 0;
 }

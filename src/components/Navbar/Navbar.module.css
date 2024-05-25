@@ -21,8 +21,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px;
-  margin-top: 4px;
 }
 
 /* logo  */
@@ -34,12 +32,12 @@ a {
 /* ul  */
 .navMenu {
   position: absolute;
-  right: 40px;
+  right: 30px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 40px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .navMenu img {

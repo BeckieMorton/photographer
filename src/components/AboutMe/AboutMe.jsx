@@ -6,11 +6,10 @@ export const AboutMe = () => {
   return (
     <div className={styles.container}>
       <div className={styles.box}>
-        <img src="./assets/about.jpg" alt="about me photo" />
+        <img src="./assets/about-sml.jpg" alt="about me photo" />
       </div>
       <div className={styles.box}>
-        <p>right column</p>
-        <p>some info here bla bla</p>
+        <p>I am a European based Nature and Travel Photographer.</p>
         <p>
           Gastropub master cleanse vinyl dolore praxis. Knausgaard photo booth
           bruh nostrud, blackbird spyplane lyft ut portland. Retro dolor sunt
